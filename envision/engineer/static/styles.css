@@ -1,0 +1,214 @@
+.south-box {
+    margin-top: 5em;
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 5em;
+}
+.standout{
+    color: black;
+}
+img {
+    width: 100%;
+    float: left;
+}
+#south_la_park {
+    width: 50%;
+    float: left;
+    padding-right: 1em;
+    padding-left: 1em;
+    padding-bottom: 1em;
+}
+#image-description {
+    width: 50%;
+    padding-right: 1em;
+    padding-left: 1em;
+    padding-bottom: 1em;
+    float: right;
+    font-size: 1.25em;
+}
+
+#title {
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+}
+
+.front-image-desc {
+    margin-top: 2.5em;
+    margin-bottom: 3em;
+    font-size: 1.5em;
+    float: right;
+}
+
+.column-titles {
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #E7E7E7;
+    background: #F8F8F8;
+    padding-left: 95px;
+    text-align: center;
+    color: #777;
+}
+
+.headerbox {
+    /*border-radius: 5px;*/
+    /*border-style: solid;*/
+    /*border-width: 1px;*/
+    /*border-color: lightgrey;*/
+    /*padding-left: 95px;*/
+    text-align: center;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    clear: both
+}
+
+.bigbox {
+    /*border-radius: 5px;*/
+    border-style: solid;
+    /*border-width: 1px;*/
+    border-color: #E7E7E7;
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 10px;
+}
+
+
+.box {
+    border-radius: 3px;
+    border-style: solid;
+    border-width: 1px;
+    padding: 0.5%;
+    border-color: lightgrey;
+}
+.box-example-ql {
+    border-radius: 3px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgba(229, 103, 23, 0.8);
+    background-color: white;
+}
+.box-example-ld {
+    border-radius: 3px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: gray;
+    background-color: white;
+}
+.box-example-nw {
+    border-radius: 3px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: olive;
+    background-color: white;
+}
+.box-example-cr {
+    border-radius: 3px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: cadetblue;
+    background-color: white;
+}
+.textbox {
+    border-radius: 3px;
+    border-style: solid;
+    border-width: 0px;
+    /*border-color: rgba(229, 103, 23, 0.8);*/
+    background-color: #F8F8F8;
+    padding-top: 5px;
+    padding-top: 10px;
+}
+.box-white {
+    border-radius: 3px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #E7E7E7;
+    background-color: white;
+    text-align: center;
+}
+.box-yellow {
+    border-radius: 3px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #E7E7E7;
+    background-color: yellow;
+    text-align: center;
+}
+.quality {
+    height: 4em;
+    margin-top: 5em;
+    background-color: rgba(229, 103, 23, 0.8);
+    border-radius: 3px;
+}
+.ql {
+    color: rgba(229, 103, 23, 0.8);
+    padding-left: 0.5em;
+}
+
+.category-title {
+   line-height: 2.5em;
+}
+.leadership {
+    height: 4em;
+    background-color: gray;
+    border-radius: 3px;
+}
+
+.ld {
+    color: gray;
+}
+.climate {
+    height: 4em;
+    background-color: cadetblue;
+    border-radius: 3px;
+}
+.cr {
+    color: cadetblue;
+    padding-left: 0.5em;
+}
+.natural-world {
+    height: 4em;
+    background-color: darkolivegreen;
+    border-radius: 3px;
+}
+.nw {
+    color: darkolivegreen;
+    padding-left: 0.5em;
+}
+
+.credits-ql {
+    background-color: rgba(229, 103, 23, 0.8);
+    border-radius: 3px;
+}
+
+.version-one{
+    display: none;
+}
+
+.hidden{
+    visibility: hidden;
+}
+
+.data{
+    visibility: hidden;
+}
+
+.error{
+    border: solid;
+    border-width: 3px;
+    border-color: red;
+    box-shadow: 2px 2px 2px red;
+
+}
+textarea {
+    width: 100%;
+}
+
+/*textarea {*/
+    /*width: 50px;*/
+    /*height: 50px;*/
+/*}*/
+

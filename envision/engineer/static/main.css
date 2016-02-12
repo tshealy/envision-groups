@@ -1,0 +1,259 @@
+/* line 17, ../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, ../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, ../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, ../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, ../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, ../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, ../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, ../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, ../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
+  display: block;
+}
+
+/* line 7, ../sass/main.scss */
+body {
+  font-family: Helvetica, sans-serif;
+  background: #acacac;
+  font-size: 22px;
+  line-height: 28px;
+  position: relative;
+}
+
+/* line 15, ../sass/main.scss */
+* {
+  vertical-align: top;
+}
+
+/* line 19, ../sass/main.scss */
+a {
+  text-decoration: none;
+}
+
+/* line 23, ../sass/main.scss */
+header {
+  color: #FFF;
+  height: 100px;
+  width: 960px;
+  background: #587833;
+  margin: 0 auto;
+  position: relative;
+}
+/* line 31, ../sass/main.scss */
+header a {
+  color: #FFF;
+}
+/* line 35, ../sass/main.scss */
+header h1 {
+  font-size: 60px;
+  line-height: 110px;
+  padding-left: 20px;
+  display: inline-block;
+  cursor: pointer;
+}
+/* line 43, ../sass/main.scss */
+header .admin {
+  text-align: right;
+  display: inline-block;
+  position: absolute;
+  right: 20px;
+  top: 55px;
+  cursor: pointer;
+}
+
+/* line 53, ../sass/main.scss */
+.next-page, .previous-page {
+  position: absolute;
+  display: inline-block;
+  width: 145px;
+  height: 120px;
+  top: 0;
+}
+/* line 60, ../sass/main.scss */
+.next-page .rectangle, .previous-page .rectangle {
+  color: #FFF;
+  width: 105px;
+  position: absolute;
+  top: 26px;
+  display: inline-block;
+  background: #3c72a5;
+  vertical-align: top;
+  cursor: pointer;
+}
+/* line 71, ../sass/main.scss */
+.next-page .arrow-right, .next-page .arrow-left, .previous-page .arrow-right, .previous-page .arrow-left {
+  position: absolute;
+  top: 0;
+  width: 0;
+  height: 0;
+  border-top: 60px solid transparent;
+  border-bottom: 60px solid transparent;
+  display: inline-block;
+  vertical-align: top;
+  cursor: pointer;
+}
+/* line 84, ../sass/main.scss */
+.next-page .arrow-right, .previous-page .arrow-right {
+  right: 0;
+  border-left: 60px solid #3c72a5;
+}
+/* line 89, ../sass/main.scss */
+.next-page .arrow-left, .previous-page .arrow-left {
+  left: 0px;
+  border-right: 60px solid #3c72a5;
+}
+
+/* line 95, ../sass/main.scss */
+.next-page {
+  right: 0;
+}
+/* line 98, ../sass/main.scss */
+.next-page .rectangle {
+  line-height: 65px;
+  height: 65px;
+  left: 0;
+  padding-left: 15px;
+  border-radius: 0 15px 15px 0;
+}
+/* line 106, ../sass/main.scss */
+.next-page .submit {
+  text-align: center;
+  border-radius: 15px;
+  padding: 0 20px;
+}
+
+/* line 113, ../sass/main.scss */
+.previous-page {
+  left: 0;
+}
+/* line 116, ../sass/main.scss */
+.previous-page .rectangle {
+  line-height: 25px;
+  padding-top: 7px;
+  height: 58px;
+  text-align: center;
+  padding-left: 5px;
+  right: 0;
+  border-radius: 15px 0 0 15px;
+}
+
+/* line 128, ../sass/main.scss */
+.bottom-nav {
+  position: relative;
+  width: 95%;
+  height: 100px;
+  margin: 40px auto 0;
+  padding-top: 15px;
+}
+/* line 135, ../sass/main.scss */
+.bottom-nav .review {
+  border: 1px solid black;
+  width: 414px;
+  padding: 15px;
+  margin: 0 auto 0;
+}
+
+/* line 143, ../sass/main.scss */
+.quality {
+  background: #D87400;
+}
+
+/* line 147, ../sass/main.scss */
+.natural {
+  background: #909D51;
+}
+
+/* line 151, ../sass/main.scss */
+.modal-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(234, 234, 234, 0.5);
+}
+
+/* line 160, ../sass/main.scss */
+.modal {
+  text-align: center;
+  width: 360px;
+  padding: 20px;
+  margin: 200px auto;
+  background: #FFF;
+  border: 3px solid;
+  border-radius: 3px;
+}
+/* line 174, ../sass/main.scss */
+.modal h1 {
+  margin-bottom: 30px;
+}
+/* line 178, ../sass/main.scss */
+.modal .modal-text {
+  margin-bottom: 30px;
+}
+/* line 182, ../sass/main.scss */
+.modal .modal-button {
+  padding: 10px 20px;
+  background: #FFA500;
+  display: inline-block;
+  border-radius: 4px;
+  color: #FFF;
+  cursor: default;
+}
+
+/* line 192, ../sass/main.scss */
+#qNumber {
+  color: #FFF;
+}

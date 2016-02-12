@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+{% load staticfiles %}
+{% load bootstrap3 %}
+
+{# Load CSS and JavaScript #}
+{% bootstrap_css %}
+{% bootstrap_javascript %}
+
+{# Display django.contrib.messages as Bootstrap alerts #}
+{% bootstrap_messages %}
+{% load widget_tweaks %}
+
+<html>
+  <head>
+    <title>Envision Training</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <link rel = "stylesheet" type="text/css" href="{%  static "styles.css" %}">
+    <link rel = "bootstrap" type="text/css" href="{%  static "bootstrap.css" %}">
+    <link rel = "bootstrap" type="text/css" href="{%  static "bootstrap.min.css" %}">
+    <link rel = "bootstrap" type="text/css" href="{%  static "bootstrap-theme.css" %}">
+    <link rel = "bootstrap" type="text/css" href="{%  static "bootstrap-theme.min.css" %}">
+  </head>
+  <body>
+    <div class = "navbar navbar-default navbar-static-top">
+      <div class = "container">
+        <ul href = "" class = "navbar-brand">Envision Training</ul>
+      </div>
+    </div>
+
+    <div class = "container">
+
+      <div class = "jumbotron">
+        <h1>Cordova, AL</h1>
+        <p>The city of Cordova, AL hired your firm to transform a dilapidated, under-used park and brownfield site into a community walking and outdoor gathering center.  Your job is to ensure the design meets Envision certification. Because the project is in the early design stages, you are in charge of many project decisions. For example, is reducing light pollution of value? What about community walkability?</p>
+        <form method="POST" action="{% url 'engineer_add' %}">
+            {% csrf_token %}
+            <h3>Please list all group members names: {{ form.name | attr:"rows:4" }}</h3>
+            <p>Can we include your results in this research study? {{ form.research }} </p>
+            <div>
+                <a href={% static "details/irb/index.html" %} target="_blank">Research details are provided here.</a>
+            </div>
+            <p></p>
+            <input type="submit" value="Get Started!" class = "btn btn-info" />
+        </form>
+      </div>
+
+    </div>
+
+    <div class = "container">
+      <div class = "row">
+        <div class = "col-md-8 col">
+          <h3>Park and Brownfield Redevelopment</h3>
+          <img src={% static "images/layout_rendering.jpg" %} />
+        </div>
+        <div class = "col-md-4">
+            <p class="front-image-desc">The site includes a floodplain and wetlands as part of the stream that needs repairing. You can add protective buffer zones to enhance and restore the waterbody.
+            <br><br>Exact details about what to include in the park (e.g. stream restoration, education facility, wildlife habitat, nature trails, bike paths) are up to you.</p>
+        </div>
+      </div>
+    </div>
+    <script src = "http://ajax.googleapis.com/ajax/libs/jquery/2.1.4//jquery.min.js"></script>
+    <script src = "js/bootstrap.js"></script>
+  </body>
+</html>

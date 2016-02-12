@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+{% load staticfiles %}
+{% load bootstrap3 %}
+
+{# Load CSS and JavaScript #}
+{% bootstrap_css %}
+{% bootstrap_javascript %}
+
+{# Display django.contrib.messages as Bootstrap alerts #}
+{% bootstrap_messages %}
+{% load widget_tweaks %}
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="{%  static "rating.js" %}"></script>
+<link rel = "stylesheet" type="text/css" href="{%  static "styles.css" %}">
+
+
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Rating Form</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <div class = "navbar navbar-default navbar-fixed-top">
+        <ul class="nav navbar-nav">
+            <li class ="navbar-brand">Envision Rating System</li>
+            <li class="navbar-brand" style="color:black">Total Score: <span id="total-selected">0</span></li>
+            <li class="navbar-brand" style="color:black">Points Possible: <span id="total-possible">0</span></li>
+        </ul>
+    </div>
+</head>
+{#BELOW CHANGES BASED ON VERSION 0/1#}
+<div class = "version-one south-box">
+    <h3 id="title">An example project: South LA Wetlands</h3>
+    <div>
+        <img id="south_la_park" src={% static "images/south_la_park.jpg" %} />
+        <p id="image-description">Here is an example project to help with your assessment. The South Los Angeles Wetland Park is a nature park and sustainable stormwater treatment wetland constructed on a former Brownfield site in Los Angeles, CA. Both the previous site and end result are similar to what is possible in Cordova, AL. Included below are examples to explain how the South LA team achieved a platinum rating.</p>
+    </div>
+</div>
+{#ABOVE CHANGES BASED ON VERSION 0/1#}
+<form id="happy-form" class="navbar-form navbar-center" method="POST" action="{% url 'engineer_detail' engineer.pk %}">
+    {% csrf_token %}
+    <div class = "headerbox">
+        <div class = "quality">
+            <h3 class="category-title">Quality of Life</h3>
+        </div>
+    </div>
+{#STARTS QL1.2#}
+    <div class="container bigbox">
+        <div class="version-one">
+            <div class="row">
+                <div class="col-md-12 box-example-ql">
+                    <p><h4>Example: South LA Wetlands achieved <i><b>Restorative.</b></i></h4>The project team transformed the blighted maintenance yard into a landscaped open space for the community. This improved community attractiveness provided a recreational facility to enhance the overall community.</p>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <h4 class="col-md-1 ql">QL1.2</h4>
+            <p class="col-md-4 textbox"><b>Stimulate Sustainable Growth and Development</b>
+                <br>Support and stimulate sustainable growth and development, including improvements in job growth, capacity building, productivity, business attractiveness, and livability.<br>
+                <a href={% static "details/QL1.2/index.html" %} target="_blank">detail/guidance</a>
+            </p>
+            <h4 class="col-md-2"> {{ rating_form.QL1_2_inc }}</h4>
+            <h4 class="col-md-2"> {{ rating_form.QL1_2_loa }}</h4>
+            <div class="col-md-1 col-md-offset-1 box-yellow">
+                <h4 class="selected-points" id="ql12-selected-points">0</h4>
+            </div>
+            <div class="col-md-1 box-white">
+                <h4 class="possible-points" id="ql12-possible-points">0</h4>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    {{ rating_form.QL1_2_exp |attr:"rows:4" }}
+                    <br>Count: <span class="current-count" id="span-1">0</span> | Required: <span class="required-count">0</span>
+                </div>
+            </div>
+        </div>
+    </div>
+{#STARTS QL2.3#}
+    <div class="container bigbox">
+        <div class="version-one">
+            <div class="row">
+                <div class="col-md-12 box-example-ql">
+                    <p><h4>Example: South LA Wetlands achieved <i><b>Restorative.</b></i></h4>The project team conducted an assessment of lighting needs and found only security lighting along the pedestrian walkways was needed. The project uses solar lights with cut-off lenses to reduce both lighting energy requirements and light spillage.</p>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <h4 class="col-md-1 ql">QL2.3</h4>
+            <p class="col-md-4 textbox"><b>Minimize Light Pollution</b>
+                <br>Prevent excessive glare, light at night, and light directed skyward to conserve energy and reduce obtrusive lighting and excessive glare.<br>
+                <a href={% static "details/QL2.3/index.html" %} target="_blank">detail/guidance</a>
+            </p>
+            <h4 class="col-md-2"> {{ rating_form.QL2_3_inc }}</h4>
+            <h4 class="col-md-2"> {{ rating_form.QL2_3_loa }}</h4>
+            <div class="col-md-1 col-md-offset-1 box-yellow">
+                <h4 class="selected-points" id="ql23-selected-points">0</h4>
+            </div>
+            <div class="col-md-1 box-white">
+                <h4 class="possible-points" id="ql23-possible-points">0</h4>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    {{ rating_form.QL2_3_exp |attr:"rows:4" }}
+                    <br>Count: <span class="current-count" id="span-1">0</span> | Required: <span class="required-count">0</span>
+                </div>
+            </div>
+        </div>
+    </div>
+{#STARTS QL2.5#}
+    <div class="container bigbox">
+        <div class="version-one">
+            <div class="row">
+                <div class="col-md-12 box-example-ql">
+                    <p><h4>Example: South LA Wetlands achieved <i><b>Restorative.</b></i></h4>The park includes walking and biking paths as well as bike lanes and large sidewalks adjacent to the property. To encourage alternative modes of transportation only 67 parking stalls were provided even though the traffic study estimated 170 were needed.</p>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <h4 class="col-md-1 ql">QL2.5</h4>
+            <p class="col-md-4 textbox"><b>Encourage Alternative Modes of Transportation</b>
+                <br>Improve accessibility to non-motorized transportation and public transit. Promote alternative transportation and reduce congestion.<br>
+                <a href={% static "details/QL2.5/index.html" %} target="_blank">detail/guidance</a>
+            </p>
+            <h4 class="col-md-2"> {{ rating_form.QL2_5_inc }}</h4>
+            <h4 class="col-md-2"> {{ rating_form.QL2_5_loa }}</h4>
+            <div class="col-md-1 col-md-offset-1 box-yellow">
+                <h4 class="selected-points" id="ql25-selected-points">0</h4>
+            </div>
+            <div class="col-md-1 box-white">
+                <h4 class="possible-points" id="ql25-possible-points">0</h4>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    {{ rating_form.QL2_3_exp |attr:"rows:4" }}
+                    <br>Count: <span class="current-count" id="span-1">0</span> | Required: <span class="required-count">0</span>
+                </div>
+            </div>
+        </div>
+    </div>
+{#STARTS QL3.2#}
+    <div class="container bigbox">
+        <div class="version-one">
+            <div class="row">
+                <div class="col-md-12 box-example-ql">
+                    <p><h4>Example: South LA Wetlands achieved <i><b>Restorative.</b></i></h4>The project restored the overall visual character as it transformed all nine acres of the blight maintenance yard to landscaped public space for the community. Dilapidated buildings were demolished and the views from the neighboring school, church, and surrounding homes improved.</p>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <h4 class="col-md-1 ql">QL3.2</h4>
+            <p class="col-md-4 textbox"><b>Preserve Views and Local Character</b>
+                <br>Design the project in a way that maintains the local character of the community and does not have negative impacts on community views.<br>
+                <a href={% static "details/QL3.2/index.html" %} target="_blank">detail/guidance</a>
+            </p>
+            <h4 class="col-md-2"> {{ rating_form.QL3_2_inc }}</h4>
+            <h4 class="col-md-2"> {{ rating_form.QL3_2_loa }}</h4>
+            <div class="col-md-1 col-md-offset-1 box-yellow">
+                <h4 class="selected-points" id="ql32-selected-points">0</h4>
+            </div>
+            <div class="col-md-1 box-white">
+                <h4 class="possible-points" id="ql32-possible-points">0</h4>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    {{ rating_form.QL3_2_exp |attr:"rows:4" }}
+                    <br>Count: <span class="current-count" id="span-1">0</span> | Required: <span class="required-count">0</span>
+                </div>
+            </div>
+        </div>
+    </div>
+{#STARTS QL3.3#}
+    <div class="container bigbox">
+        <div class="version-one">
+            <div class="row">
+                <div class="col-md-12 box-example-ql">
+                    <p><h4>Example: South LA Wetlands achieved <i><b>Restorative.</b></i></h4>The project team developed wetland and riparian habitat, trails, boardwalks, and educational and public use facilities. The site minimizes discharge of pollutants from urban run-off to receiving waters.</p>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <h4 class="col-md-1 ql">QL3.3</h4>
+            <p class="col-md-4 textbox"><b>Enhance Public Space</b>
+                <br>Improve public spaces including parks, plazas, recreational facilities, or wildlife refuges to enhance community livability.<br>
+                <a href={% static "details/QL3.3/index.html" %} target="_blank">detail/guidance</a>
+            </p>
+            <h4 class="col-md-2"> {{ rating_form.QL3_3_inc }}</h4>
+            <h4 class="col-md-2"> {{ rating_form.QL3_3_loa }}</h4>
+            <div class="col-md-1 col-md-offset-1 box-yellow">
+                <h4 class="selected-points" id="ql33-selected-points">0</h4>
+            </div>
+            <div class="col-md-1 box-white">
+                <h4 class="possible-points" id="ql33-possible-points">0</h4>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    {{ rating_form.QL3_3_exp |attr:"rows:4" }}
+                    <br>Count: <span class="current-count" id="span-1">0</span> | Required: <span class="required-count">0</span>
+                </div>
+            </div>
+        </div>
+    </div>
+{#BEGINS NATURAL WORLD#}
+    <hr>
+    <div class = "headerbox">
+        <div class = "natural-world">
+            <h3 class="category-title">Natural World</h3>
+        </div>
+    </div>
+{#NW1.2#}
+    <div class="container bigbox">
+        <div class="version-one">
+            <div class="row">
+                <div class="col-md-12 box-example-nw">
+                    <p><h4>Example: South LA Wetlands achieved <i><b>Restorative.</b></i></h4>A wetland with riparian and emergent marsh habitat was created at the center of a densely populated urban community. The project team and city changed the land use designation of the site from Light Industrial to Open Space in order to ensure the continued use of the site as a wetland park.</p>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <h4 class="col-md-1 nw">NW1.2</h4>
+            <p class="col-md-4 textbox"><b>Protect Wetlands and Surface Water</b>
+                <br>Protect, buffer, enhance, and restore areas designated as wetlands, shorelines, and waterbodies by providing natural buffer zones, vegetation, and soil-protection zones.<br>
+                <a href={% static "details/NW1.2/index.html" %} target="_blank">detail/guidance</a>
+            </p>
+            <h4 class="col-md-2"> {{ rating_form.NW1_2_inc }}</h4>
+            <h4 class="col-md-2"> {{ rating_form.NW1_2_loa }}</h4>
+            <div class="col-md-1 col-md-offset-1 box-yellow">
+                <h4 class="selected-points" id="nw12-selected-points">0</h4>
+            </div>
+            <div class="col-md-1 box-white">
+                <h4 class="possible-points" id="nw12-possible-points">0</h4>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    {{ rating_form.NW1_2_exp |attr:"rows:4" }}
+                    <br>Count: <span class="current-count" id="span-1">0</span> | Required: <span class="required-count">0</span>
+                </div>
+            </div>
+        </div>
+    </div>
+{#NW2.3#}
+    <div class="container bigbox">
+        <div class="version-one">
+            <div class="row">
+                <div class="col-md-12 box-example-nw">
+                    <p><h4>Example: South LA Wetlands achieved <i><b>Restorative.</b></i></h4><p>The project team designed for 100% collection of dry weather runoff from the regional storm drain network. All wetland cells are lined with a primary geosynthetic clay liner to form an impermeable layer that 1) prevents water loss via infiltration and 2) prevents infiltration into the former Brownfield site.</p>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <h4 class="col-md-1 nw">NW2.3</h4>
+            <p class="col-md-4 textbox"><b>Prevent Surface and Groundwater Contamination</b>
+                <br>Preserve freshwater resources by incorporating measures to prevent pollutants from contaminating surface and groundwater and monitor impacts over operations.<br>
+                <a href={% static "details/NW2.3/index.html" %} target="_blank">detail/guidance</a>
+            </p>
+            <h4 class="col-md-2"> {{ rating_form.NW2_3_inc }}</h4>
+            <h4 class="col-md-2"> {{ rating_form.NW2_3_loa }}</h4>
+            <div class="col-md-1 col-md-offset-1 box-yellow">
+                <h4 class="selected-points" id="nw23-selected-points">0</h4>
+            </div>
+            <div class="col-md-1 box-white">
+                <h4 class="possible-points" id="nw23-possible-points">0</h4>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    {{ rating_form.NW2_3_exp |attr:"rows:4" }}
+                    <br>Count: <span class="current-count" id="span-1">0</span> | Required: <span class="required-count">0</span>
+                </div>
+            </div>
+        </div>
+    </div>
+{#NW3.4#}
+    <div class="container bigbox">
+        <div class="version-one">
+            <div class="row">
+                <div class="col-md-12 box-example-nw">
+                    <h4>Example: South LA Wetlands achieved <i><b>Restorative.</b></i></h4><p>A wetland with riparian and emergent marsh habitat was created at the center of a densely populated urban community. The project is designed to divert stormwater runoff from the adjacent 63” storm drain and use the runoff as a resource to sustain the constructed wetland and its natural habitat.</p>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <h4 class="col-md-1 nw">NW3.4</h4>
+            <p class="col-md-4 textbox"><b>Maintain Wetland and Surface Water Functions</b>
+                <br>Maintain and restore the ecosystem functions of streams, wetlands, water bodies and their riparian areas.<br>
+                <a href={% static "details/NW3.4/index.html" %} target="_blank">detail/guidance</a>
+            </p>
+            <h4 class="col-md-2"> {{ rating_form.NW3_4_inc }}</h4>
+            <h4 class="col-md-2"> {{ rating_form.NW3_4_loa }}</h4>
+            <div class="col-md-1 col-md-offset-1 box-yellow">
+                <h4 class="selected-points" id="nw34-selected-points">0</h4>
+            </div>
+            <div class="col-md-1 box-white">
+                <h4 class="possible-points" id="nw34-possible-points">0</h4>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    {{ rating_form.NW3_4_exp |attr:"rows:4" }}
+                    <br>Count: <span class="current-count" id="span-1">0</span> | Required: <span class="required-count">0</span>
+                </div>
+            </div>
+        </div>
+    </div>
+{#Climate and Risk#}
+    <hr>
+    <div class = "headerbox">
+        <div class = "climate">
+            <h3 class="category-title">Climate and Risk</h3>
+        </div>
+    </div>
+{#STARTS CR1.1#}
+    <div class="container bigbox">
+        <div class="version-one">
+            <div class="row">
+                <div class="col-md-12 box-example-cr">
+                    <h4>Example: South LA Wetlands achieved <i><b>Restorative.</b></i></h4><p>The project team converted the land use designation of the site from Light Industrial to Open Space. According to the project’s Environmental Impact Report (EIR), green house gas (GHG) emissions would be reduced following implementation of the South Los Angeles Wetland Park.</p>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <h4 class="col-md-1 cr">CR1.1</h4>
+            <p class="col-md-4 textbox"><b>Reduce Greenhouse Gas Emissions</b>
+                <br>Conduct a comprehensive life-cycle carbon analysis and use this assessment to reduce the anticipated amount of net greenhouse gas emissions during the life cycle of the project, reducing project contribution to climate change.<br>
+                <a href={% static "details/CR1.1/index.html" %} target="_blank">detail/guidance</a>
+            </p>
+            <h4 class="col-md-2"> {{ rating_form.CR1_1_inc }}</h4>
+            <h4 class="col-md-2"> {{ rating_form.CR1_1_loa }}</h4>
+            <div class="col-md-1 col-md-offset-1 box-yellow">
+                <h4 class="selected-points" id="cr11-selected-points">0</h4>
+            </div>
+            <div class="col-md-1 box-white">
+                <h4 class="possible-points" id="cr11-possible-points">0</h4>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    {{ rating_form.CR1_1_exp |attr:"rows:4" }}
+                    <br>Count: <span class="current-count" id="span-1">0</span> | Required: <span class="required-count">0</span>
+                </div>
+            </div>
+        </div>
+    </div>
+{#STARTS CR2.2#}
+    <div class="container bigbox">
+        <div class="version-one">
+            <div class="row">
+                <div class="col-md-12 box-example-cr">
+                    <p><h4>Example: South LA Wetlands achieved <i><b>Restorative.</b></i></h4>Using sluice gates and end caps for orficies, the wetland was broken into three cells allowing them to operate independently. This flexibility provides opportunity to reconfigure the wetland in the event that source water is reduced (i.e. consider converting one of the wetlands to park).</p>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <h4 class="col-md-1 cr">CR2.2</h4>
+            <p class="col-md-4 textbox"><b>Avoid Traps and Vulnerabilities </b>
+                <br>Avoid traps and vulnerabilities that could create high, long-term costs and risks for the affected communities.<br>
+                <a href={% static "details/CR2.2/index.html" %} target="_blank">detail/guidance</a>
+            </p>
+            <h4 class="col-md-2"> {{ rating_form.CR2_2_inc }}</h4>
+            <h4 class="col-md-2"> {{ rating_form.CR2_2_loa }}</h4>
+            <div class="col-md-1 col-md-offset-1 box-yellow">
+                <h4 class="selected-points" id="cr22-selected-points">0</h4>
+            </div>
+            <div class="col-md-1 box-white">
+                <h4 class="possible-points" id="cr22-possible-points">0</h4>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    {{ rating_form.CR2_2_exp |attr:"rows:4" }}
+                    <br>Count: <span class="current-count" id="span-1">0</span> | Required: <span class="required-count">0</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    {{ rating_form.total_time }}
+    <div align= "center"><br>
+        <button type="button" class="submit btn btn-primary" style="width: 100px; height: 40px; font-size: 20px;">
+            Submit
+        </button>
+    </div>
+</form>
+
+<div class="data">
+    {{ engineer.version }}
+</div>
+</body>
+</html>
