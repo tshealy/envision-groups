@@ -33,6 +33,7 @@
       <div class = "jumbotron">
         <h1>Cordova, AL</h1>
         <p>The city of Cordova, AL hired your firm to transform a dilapidated, under-used park and brownfield site into a community walking and outdoor gathering center.  Your job is to ensure the design meets Envision certification. Because the project is in the early design stages, you are in charge of many project decisions. For example, is reducing light pollution of value? What about community walkability?</p>
+        <i>Once you click “Get Started” do not close the web browser. Your answers will not save. This should take no more than one hour to complete as a group.</i>
         <form method="POST" action="{% url 'engineer_add' %}">
             {% csrf_token %}
             <h3>Please list all group members names: {{ form.name | attr:"rows:4" }}</h3>

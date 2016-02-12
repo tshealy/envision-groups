@@ -1,0 +1,369 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ad56cfe1-0916-4897-9f0a-978b80212670" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.direnv/python-3.4.3/lib/python3.4/site-packages/pip-7.1.2.dist-info/DESCRIPTION.rst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.direnv/python-3.4.3/lib/python3.4/site-packages/pip-7.1.2.dist-info/METADATA" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.direnv/python-3.4.3/lib/python3.4/site-packages/pip-7.1.2.dist-info/RECORD" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.direnv/python-3.4.3/lib/python3.4/site-packages/pip-7.1.2.dist-info/WHEEL" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.direnv/python-3.4.3/lib/python3.4/site-packages/pip-7.1.2.dist-info/entry_points.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.direnv/python-3.4.3/lib/python3.4/site-packages/pip-7.1.2.dist-info/metadata.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.direnv/python-3.4.3/lib/python3.4/site-packages/pip-7.1.2.dist-info/pbr.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.direnv/python-3.4.3/lib/python3.4/site-packages/pip-7.1.2.dist-info/top_level.txt" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.direnv/python-3.4.3/lib/python3.4/site-packages/pip/_vendor/packaging/__about__.py" afterPath="$PROJECT_DIR$/.direnv/python-3.4.3/lib/python3.4/site-packages/pip/_vendor/packaging/__about__.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.direnv/python-3.4.3/lib/python3.4/site-packages/pip/__init__.py" afterPath="$PROJECT_DIR$/.direnv/python-3.4.3/lib/python3.4/site-packages/pip/__init__.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.direnv/python-3.4.3/lib/python3.4/site-packages/pip/_vendor/__init__.py" afterPath="$PROJECT_DIR$/.direnv/python-3.4.3/lib/python3.4/site-packages/pip/_vendor/__init__.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.direnv/python-3.4.3/lib/python3.4/site-packages/pip/_vendor/cachecontrol/__init__.py" afterPath="$PROJECT_DIR$/.direnv/python-3.4.3/lib/python3.4/site-packages/pip/_vendor/cachecontrol/__init__.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.direnv/python-3.4.3/lib/python3.4/site-packages/pip/_vendor/colorama/__init__.py" afterPath="$PROJECT_DIR$/.direnv/python-3.4.3/lib/python3.4/site-packages/pip/_vendor/colorama/__init__.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.direnv/python-3.4.3/lib/python3.4/site-packages/pip/_vendor/html5lib/__init__.py" afterPath="$PROJECT_DIR$/.direnv/python-3.4.3/lib/python3.4/site-packages/pip/_vendor/html5lib/__init__.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.direnv/python-3.4.3/lib/python3.4/site-packages/pip/_vendor/lockfile/__init__.py" afterPath="$PROJECT_DIR$/.direnv/python-3.4.3/lib/python3.4/site-packages/pip/_vendor/lockfile/__init__.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.direnv/python-3.4.3/lib/python3.4/site-packages/pip/_vendor/packaging/__init__.py" afterPath="$PROJECT_DIR$/.direnv/python-3.4.3/lib/python3.4/site-packages/pip/_vendor/packaging/__init__.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.direnv/python-3.4.3/lib/python3.4/site-packages/pip/_vendor/pkg_resources/__init__.py" afterPath="$PROJECT_DIR$/.direnv/python-3.4.3/lib/python3.4/site-packages/pip/_vendor/pkg_resources/__init__.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.direnv/python-3.4.3/lib/python3.4/site-packages/pip/_vendor/requests/__init__.py" afterPath="$PROJECT_DIR$/.direnv/python-3.4.3/lib/python3.4/site-packages/pip/_vendor/requests/__init__.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.direnv/python-3.4.3/lib/python3.4/site-packages/pip/_vendor/requests/packages/__init__.py" afterPath="$PROJECT_DIR$/.direnv/python-3.4.3/lib/python3.4/site-packages/pip/_vendor/requests/packages/__init__.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.direnv/python-3.4.3/lib/python3.4/site-packages/pip/_vendor/requests/packages/urllib3/__init__.py" afterPath="$PROJECT_DIR$/.direnv/python-3.4.3/lib/python3.4/site-packages/pip/_vendor/requests/packages/urllib3/__init__.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.direnv/python-3.4.3/lib/python3.4/site-packages/pip/_vendor/requests/packages/urllib3/packages/__init__.py" afterPath="$PROJECT_DIR$/.direnv/python-3.4.3/lib/python3.4/site-packages/pip/_vendor/requests/packages/urllib3/packages/__init__.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.direnv/python-3.4.3/lib/python3.4/site-packages/pip/_vendor/requests/packages/urllib3/util/__init__.py" afterPath="$PROJECT_DIR$/.direnv/python-3.4.3/lib/python3.4/site-packages/pip/_vendor/requests/packages/urllib3/util/__init__.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.direnv/python-3.4.3/lib/python3.4/site-packages/pip/commands/__init__.py" afterPath="$PROJECT_DIR$/.direnv/python-3.4.3/lib/python3.4/site-packages/pip/commands/__init__.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.direnv/python-3.4.3/lib/python3.4/site-packages/pip/compat/__init__.py" afterPath="$PROJECT_DIR$/.direnv/python-3.4.3/lib/python3.4/site-packages/pip/compat/__init__.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.direnv/python-3.4.3/lib/python3.4/site-packages/pip/utils/__init__.py" afterPath="$PROJECT_DIR$/.direnv/python-3.4.3/lib/python3.4/site-packages/pip/utils/__init__.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.direnv/python-3.4.3/lib/python3.4/site-packages/pip/vcs/__init__.py" afterPath="$PROJECT_DIR$/.direnv/python-3.4.3/lib/python3.4/site-packages/pip/vcs/__init__.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.direnv/python-3.4.3/lib/python3.4/site-packages/pip/_vendor/requests/packages/urllib3/_collections.py" afterPath="$PROJECT_DIR$/.direnv/python-3.4.3/lib/python3.4/site-packages/pip/_vendor/requests/packages/urllib3/_collections.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.direnv/python-3.4.3/lib/python3.4/site-packages/pip/_vendor/packaging/_compat.py" afterPath="$PROJECT_DIR$/.direnv/python-3.4.3/lib/python3.4/site-packages/pip/_vendor/packaging/_compat.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.direnv/python-3.4.3/lib/python3.4/site-packages/pip/_vendor/packaging/_structures.py" afterPath="$PROJECT_DIR$/.direnv/python-3.4.3/lib/python3.4/site-packages/pip/_vendor/packaging/_structures.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.direnv/python-3.4.3/lib/python3.4/site-packages/pip/_vendor/requests/adapters.py" afterPath="$PROJECT_DIR$/.direnv/python-3.4.3/lib/python3.4/site-packages/pip/_vendor/requests/adapters.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.direnv/python-3.4.3/lib/python3.4/site-packages/pip/_vendor/colorama/ansi.py" afterPath="$PROJECT_DIR$/.direnv/python-3.4.3/lib/python3.4/site-packages/pip/_vendor/colorama/ansi.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.direnv/python-3.4.3/lib/python3.4/site-packages/pip/_vendor/colorama/ansitowin32.py" afterPath="$PROJECT_DIR$/.direnv/python-3.4.3/lib/python3.4/site-packages/pip/_vendor/colorama/ansitowin32.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.direnv/python-3.4.3/lib/python3.4/site-packages/pip/_vendor/requests/api.py" afterPath="$PROJECT_DIR$/.direnv/python-3.4.3/lib/python3.4/site-packages/pip/_vendor/requests/api.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.direnv/python-3.4.3/lib/python3.4/site-packages/pip/utils/appdirs.py" afterPath="$PROJECT_DIR$/.direnv/python-3.4.3/lib/python3.4/site-packages/pip/utils/appdirs.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.direnv/python-3.4.3/lib/python3.4/site-packages/pip/_vendor/requests/auth.py" afterPath="$PROJECT_DIR$/.direnv/python-3.4.3/lib/python3.4/site-packages/pip/_vendor/requests/auth.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.direnv/python-3.4.3/lib/python3.4/site-packages/pip/_vendor/progress/bar.py" afterPath="$PROJECT_DIR$/.direnv/python-3.4.3/lib/python3.4/site-packages/pip/_vendor/progress/bar.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.direnv/python-3.4.3/lib/python3.4/site-packages/pip/basecommand.py" afterPath="$PROJECT_DIR$/.direnv/python-3.4.3/lib/python3.4/site-packages/pip/basecommand.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.direnv/python-3.4.3/lib/python3.4/site-packages/pip/vcs/bazaar.py" afterPath="$PROJECT_DIR$/.direnv/python-3.4.3/lib/python3.4/site-packages/pip/vcs/bazaar.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.direnv/python-3.4.3/lib/python3.4/site-packages/pip/_vendor/requests/cacert.pem" afterPath="$PROJECT_DIR$/.direnv/python-3.4.3/lib/python3.4/site-packages/pip/_vendor/requests/cacert.pem" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.direnv/python-3.4.3/lib/python3.4/site-packages/pip/cmdoptions.py" afterPath="$PROJECT_DIR$/.direnv/python-3.4.3/lib/python3.4/site-packages/pip/cmdoptions.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.direnv/python-3.4.3/lib/python3.4/site-packages/pip/_vendor/cachecontrol/compat.py" afterPath="$PROJECT_DIR$/.direnv/python-3.4.3/lib/python3.4/site-packages/pip/_vendor/cachecontrol/compat.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.direnv/python-3.4.3/lib/python3.4/site-packages/pip/_vendor/requests/packages/urllib3/connection.py" afterPath="$PROJECT_DIR$/.direnv/python-3.4.3/lib/python3.4/site-packages/pip/_vendor/requests/packages/urllib3/connection.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.direnv/python-3.4.3/lib/python3.4/site-packages/pip/_vendor/requests/packages/urllib3/util/connection.py" afterPath="$PROJECT_DIR$/.direnv/python-3.4.3/lib/python3.4/site-packages/pip/_vendor/requests/packages/urllib3/util/connection.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.direnv/python-3.4.3/lib/python3.4/site-packages/pip/_vendor/requests/packages/urllib3/connectionpool.py" afterPath="$PROJECT_DIR$/.direnv/python-3.4.3/lib/python3.4/site-packages/pip/_vendor/requests/packages/urllib3/connectionpool.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.direnv/python-3.4.3/lib/python3.4/site-packages/pip/_vendor/cachecontrol/controller.py" afterPath="$PROJECT_DIR$/.direnv/python-3.4.3/lib/python3.4/site-packages/pip/_vendor/cachecontrol/controller.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.direnv/python-3.4.3/lib/python3.4/site-packages/pip/_vendor/requests/cookies.py" afterPath="$PROJECT_DIR$/.direnv/python-3.4.3/lib/python3.4/site-packages/pip/_vendor/requests/cookies.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.direnv/python-3.4.3/lib/python3.4/site-packages/pip/_vendor/progress/counter.py" afterPath="$PROJECT_DIR$/.direnv/python-3.4.3/lib/python3.4/site-packages/pip/_vendor/progress/counter.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.direnv/python-3.4.3/lib/python3.4/site-packages/pip/utils/deprecation.py" afterPath="$PROJECT_DIR$/.direnv/python-3.4.3/lib/python3.4/site-packages/pip/utils/deprecation.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.direnv/python-3.4.3/lib/python3.4/site-packages/pip/download.py" afterPath="$PROJECT_DIR$/.direnv/python-3.4.3/lib/python3.4/site-packages/pip/download.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/envision/engineer/templates/engineer/engineer_form.html" afterPath="$PROJECT_DIR$/envision/engineer/templates/engineer/engineer_form.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.direnv/python-3.4.3/lib/python3.4/site-packages/pip/_vendor/html5lib/treewalkers/etree.py" afterPath="$PROJECT_DIR$/.direnv/python-3.4.3/lib/python3.4/site-packages/pip/_vendor/html5lib/treewalkers/etree.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.direnv/python-3.4.3/lib/python3.4/site-packages/pip/exceptions.py" afterPath="$PROJECT_DIR$/.direnv/python-3.4.3/lib/python3.4/site-packages/pip/exceptions.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.direnv/python-3.4.3/lib/python3.4/site-packages/pip/_vendor/requests/exceptions.py" afterPath="$PROJECT_DIR$/.direnv/python-3.4.3/lib/python3.4/site-packages/pip/_vendor/requests/exceptions.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.direnv/python-3.4.3/lib/python3.4/site-packages/pip/_vendor/requests/packages/urllib3/exceptions.py" afterPath="$PROJECT_DIR$/.direnv/python-3.4.3/lib/python3.4/site-packages/pip/_vendor/requests/packages/urllib3/exceptions.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.direnv/python-3.4.3/lib/python3.4/site-packages/pip/_vendor/requests/packages/urllib3/fields.py" afterPath="$PROJECT_DIR$/.direnv/python-3.4.3/lib/python3.4/site-packages/pip/_vendor/requests/packages/urllib3/fields.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.direnv/python-3.4.3/lib/python3.4/site-packages/pip/_vendor/requests/packages/urllib3/filepost.py" afterPath="$PROJECT_DIR$/.direnv/python-3.4.3/lib/python3.4/site-packages/pip/_vendor/requests/packages/urllib3/filepost.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.direnv/python-3.4.3/lib/python3.4/site-packages/pip/operations/freeze.py" afterPath="$PROJECT_DIR$/.direnv/python-3.4.3/lib/python3.4/site-packages/pip/operations/freeze.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.direnv/python-3.4.3/lib/python3.4/site-packages/pip/vcs/git.py" afterPath="$PROJECT_DIR$/.direnv/python-3.4.3/lib/python3.4/site-packages/pip/vcs/git.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.direnv/python-3.4.3/lib/python3.4/site-packages/pip/_vendor/progress/helpers.py" afterPath="$PROJECT_DIR$/.direnv/python-3.4.3/lib/python3.4/site-packages/pip/_vendor/progress/helpers.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.direnv/python-3.4.3/lib/python3.4/site-packages/pip/_vendor/cachecontrol/heuristics.py" afterPath="$PROJECT_DIR$/.direnv/python-3.4.3/lib/python3.4/site-packages/pip/_vendor/cachecontrol/heuristics.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.direnv/python-3.4.3/lib/python3.4/site-packages/pip/_vendor/requests/hooks.py" afterPath="$PROJECT_DIR$/.direnv/python-3.4.3/lib/python3.4/site-packages/pip/_vendor/requests/hooks.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.direnv/python-3.4.3/lib/python3.4/site-packages/pip/index.py" afterPath="$PROJECT_DIR$/.direnv/python-3.4.3/lib/python3.4/site-packages/pip/index.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.direnv/python-3.4.3/lib/python3.4/site-packages/pip/_vendor/colorama/initialise.py" afterPath="$PROJECT_DIR$/.direnv/python-3.4.3/lib/python3.4/site-packages/pip/_vendor/colorama/initialise.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.direnv/python-3.4.3/lib/python3.4/site-packages/pip/commands/install.py" afterPath="$PROJECT_DIR$/.direnv/python-3.4.3/lib/python3.4/site-packages/pip/commands/install.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.direnv/python-3.4.3/lib/python3.4/site-packages/pip/_vendor/ipaddress.py" afterPath="$PROJECT_DIR$/.direnv/python-3.4.3/lib/python3.4/site-packages/pip/_vendor/ipaddress.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.direnv/python-3.4.3/lib/python3.4/site-packages/pip/_vendor/lockfile/linklockfile.py" afterPath="$PROJECT_DIR$/.direnv/python-3.4.3/lib/python3.4/site-packages/pip/_vendor/lockfile/linklockfile.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.direnv/python-3.4.3/lib/python3.4/site-packages/pip/commands/list.py" afterPath="$PROJECT_DIR$/.direnv/python-3.4.3/lib/python3.4/site-packages/pip/commands/list.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.direnv/python-3.4.3/lib/python3.4/site-packages/pip/locations.py" afterPath="$PROJECT_DIR$/.direnv/python-3.4.3/lib/python3.4/site-packages/pip/locations.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.direnv/python-3.4.3/lib/python3.4/site-packages/pip/utils/logging.py" afterPath="$PROJECT_DIR$/.direnv/python-3.4.3/lib/python3.4/site-packages/pip/utils/logging.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.direnv/python-3.4.3/lib/python3.4/site-packages/pip/vcs/mercurial.py" afterPath="$PROJECT_DIR$/.direnv/python-3.4.3/lib/python3.4/site-packages/pip/vcs/mercurial.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.direnv/python-3.4.3/lib/python3.4/site-packages/pip/_vendor/lockfile/mkdirlockfile.py" afterPath="$PROJECT_DIR$/.direnv/python-3.4.3/lib/python3.4/site-packages/pip/_vendor/lockfile/mkdirlockfile.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.direnv/python-3.4.3/lib/python3.4/site-packages/pip/_vendor/requests/models.py" afterPath="$PROJECT_DIR$/.direnv/python-3.4.3/lib/python3.4/site-packages/pip/_vendor/requests/models.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.direnv/python-3.4.3/lib/python3.4/site-packages/pip/_vendor/requests/packages/urllib3/contrib/ntlmpool.py" afterPath="$PROJECT_DIR$/.direnv/python-3.4.3/lib/python3.4/site-packages/pip/_vendor/requests/packages/urllib3/contrib/ntlmpool.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.direnv/python-3.4.3/lib/python3.4/site-packages/pip/utils/outdated.py" afterPath="$PROJECT_DIR$/.direnv/python-3.4.3/lib/python3.4/site-packages/pip/utils/outdated.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.direnv/python-3.4.3/lib/python3.4/site-packages/pip/pep425tags.py" afterPath="$PROJECT_DIR$/.direnv/python-3.4.3/lib/python3.4/site-packages/pip/pep425tags.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.direnv/python-3.4.3/lib/python3.4/site-packages/pip/_vendor/lockfile/pidlockfile.py" afterPath="$PROJECT_DIR$/.direnv/python-3.4.3/lib/python3.4/site-packages/pip/_vendor/lockfile/pidlockfile.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.direnv/python-3.4.3/lib/python3.4/site-packages/pip/_vendor/requests/packages/urllib3/poolmanager.py" afterPath="$PROJECT_DIR$/.direnv/python-3.4.3/lib/python3.4/site-packages/pip/_vendor/requests/packages/urllib3/poolmanager.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.direnv/python-3.4.3/lib/python3.4/site-packages/pip/_vendor/requests/packages/urllib3/contrib/pyopenssl.py" afterPath="$PROJECT_DIR$/.direnv/python-3.4.3/lib/python3.4/site-packages/pip/_vendor/requests/packages/urllib3/contrib/pyopenssl.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.direnv/python-3.4.3/lib/python3.4/site-packages/pip/req/req_file.py" afterPath="$PROJECT_DIR$/.direnv/python-3.4.3/lib/python3.4/site-packages/pip/req/req_file.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.direnv/python-3.4.3/lib/python3.4/site-packages/pip/req/req_install.py" afterPath="$PROJECT_DIR$/.direnv/python-3.4.3/lib/python3.4/site-packages/pip/req/req_install.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.direnv/python-3.4.3/lib/python3.4/site-packages/pip/req/req_set.py" afterPath="$PROJECT_DIR$/.direnv/python-3.4.3/lib/python3.4/site-packages/pip/req/req_set.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.direnv/python-3.4.3/lib/python3.4/site-packages/pip/req/req_uninstall.py" afterPath="$PROJECT_DIR$/.direnv/python-3.4.3/lib/python3.4/site-packages/pip/req/req_uninstall.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.direnv/python-3.4.3/lib/python3.4/site-packages/pip/_vendor/requests/packages/urllib3/request.py" afterPath="$PROJECT_DIR$/.direnv/python-3.4.3/lib/python3.4/site-packages/pip/_vendor/requests/packages/urllib3/request.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.direnv/python-3.4.3/lib/python3.4/site-packages/pip/_vendor/requests/packages/urllib3/util/request.py" afterPath="$PROJECT_DIR$/.direnv/python-3.4.3/lib/python3.4/site-packages/pip/_vendor/requests/packages/urllib3/util/request.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.direnv/python-3.4.3/lib/python3.4/site-packages/pip/_vendor/requests/packages/urllib3/response.py" afterPath="$PROJECT_DIR$/.direnv/python-3.4.3/lib/python3.4/site-packages/pip/_vendor/requests/packages/urllib3/response.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.direnv/python-3.4.3/lib/python3.4/site-packages/pip/_vendor/requests/packages/urllib3/util/response.py" afterPath="$PROJECT_DIR$/.direnv/python-3.4.3/lib/python3.4/site-packages/pip/_vendor/requests/packages/urllib3/util/response.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.direnv/python-3.4.3/lib/python3.4/site-packages/pip/_vendor/requests/packages/urllib3/util/retry.py" afterPath="$PROJECT_DIR$/.direnv/python-3.4.3/lib/python3.4/site-packages/pip/_vendor/requests/packages/urllib3/util/retry.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.direnv/python-3.4.3/lib/python3.4/site-packages/pip/_vendor/html5lib/sanitizer.py" afterPath="$PROJECT_DIR$/.direnv/python-3.4.3/lib/python3.4/site-packages/pip/_vendor/html5lib/sanitizer.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.direnv/python-3.4.3/lib/python3.4/site-packages/pip/commands/search.py" afterPath="$PROJECT_DIR$/.direnv/python-3.4.3/lib/python3.4/site-packages/pip/commands/search.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.direnv/python-3.4.3/lib/python3.4/site-packages/pip/_vendor/cachecontrol/serialize.py" afterPath="$PROJECT_DIR$/.direnv/python-3.4.3/lib/python3.4/site-packages/pip/_vendor/cachecontrol/serialize.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.direnv/python-3.4.3/lib/python3.4/site-packages/pip/_vendor/requests/sessions.py" afterPath="$PROJECT_DIR$/.direnv/python-3.4.3/lib/python3.4/site-packages/pip/_vendor/requests/sessions.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.direnv/python-3.4.3/lib/python3.4/site-packages/pip/commands/show.py" afterPath="$PROJECT_DIR$/.direnv/python-3.4.3/lib/python3.4/site-packages/pip/commands/show.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.direnv/python-3.4.3/lib/python3.4/site-packages/pip/_vendor/six.py" afterPath="$PROJECT_DIR$/.direnv/python-3.4.3/lib/python3.4/site-packages/pip/_vendor/six.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.direnv/python-3.4.3/lib/python3.4/site-packages/pip/_vendor/packaging/specifiers.py" afterPath="$PROJECT_DIR$/.direnv/python-3.4.3/lib/python3.4/site-packages/pip/_vendor/packaging/specifiers.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.direnv/python-3.4.3/lib/python3.4/site-packages/pip/_vendor/progress/spinner.py" afterPath="$PROJECT_DIR$/.direnv/python-3.4.3/lib/python3.4/site-packages/pip/_vendor/progress/spinner.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.direnv/python-3.4.3/lib/python3.4/site-packages/pip/_vendor/lockfile/sqlitelockfile.py" afterPath="$PROJECT_DIR$/.direnv/python-3.4.3/lib/python3.4/site-packages/pip/_vendor/lockfile/sqlitelockfile.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.direnv/python-3.4.3/lib/python3.4/site-packages/pip/_vendor/requests/packages/urllib3/util/ssl_.py" afterPath="$PROJECT_DIR$/.direnv/python-3.4.3/lib/python3.4/site-packages/pip/_vendor/requests/packages/urllib3/util/ssl_.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.direnv/python-3.4.3/lib/python3.4/site-packages/pip/_vendor/requests/status_codes.py" afterPath="$PROJECT_DIR$/.direnv/python-3.4.3/lib/python3.4/site-packages/pip/_vendor/requests/status_codes.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.direnv/python-3.4.3/lib/python3.4/site-packages/pip/vcs/subversion.py" afterPath="$PROJECT_DIR$/.direnv/python-3.4.3/lib/python3.4/site-packages/pip/vcs/subversion.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.direnv/python-3.4.3/lib/python3.4/site-packages/pip/_vendor/lockfile/symlinklockfile.py" afterPath="$PROJECT_DIR$/.direnv/python-3.4.3/lib/python3.4/site-packages/pip/_vendor/lockfile/symlinklockfile.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.direnv/python-3.4.3/lib/python3.4/site-packages/pip/_vendor/requests/packages/urllib3/util/timeout.py" afterPath="$PROJECT_DIR$/.direnv/python-3.4.3/lib/python3.4/site-packages/pip/_vendor/requests/packages/urllib3/util/timeout.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.direnv/python-3.4.3/lib/python3.4/site-packages/pip/utils/ui.py" afterPath="$PROJECT_DIR$/.direnv/python-3.4.3/lib/python3.4/site-packages/pip/utils/ui.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.direnv/python-3.4.3/lib/python3.4/site-packages/pip/_vendor/requests/packages/urllib3/util/url.py" afterPath="$PROJECT_DIR$/.direnv/python-3.4.3/lib/python3.4/site-packages/pip/_vendor/requests/packages/urllib3/util/url.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.direnv/python-3.4.3/lib/python3.4/site-packages/pip/_vendor/requests/utils.py" afterPath="$PROJECT_DIR$/.direnv/python-3.4.3/lib/python3.4/site-packages/pip/_vendor/requests/utils.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.direnv/python-3.4.3/lib/python3.4/site-packages/pip/_vendor/packaging/version.py" afterPath="$PROJECT_DIR$/.direnv/python-3.4.3/lib/python3.4/site-packages/pip/_vendor/packaging/version.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.direnv/python-3.4.3/lib/python3.4/site-packages/pip/wheel.py" afterPath="$PROJECT_DIR$/.direnv/python-3.4.3/lib/python3.4/site-packages/pip/wheel.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.direnv/python-3.4.3/lib/python3.4/site-packages/pip/commands/wheel.py" afterPath="$PROJECT_DIR$/.direnv/python-3.4.3/lib/python3.4/site-packages/pip/commands/wheel.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.direnv/python-3.4.3/lib/python3.4/site-packages/pip/_vendor/colorama/win32.py" afterPath="$PROJECT_DIR$/.direnv/python-3.4.3/lib/python3.4/site-packages/pip/_vendor/colorama/win32.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.direnv/python-3.4.3/lib/python3.4/site-packages/pip/_vendor/colorama/winterm.py" afterPath="$PROJECT_DIR$/.direnv/python-3.4.3/lib/python3.4/site-packages/pip/_vendor/colorama/winterm.py" />
+    </list>
+    <ignored path="envision-groups.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <ignored path=".idea/dataSources.local.xml" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="envision-groups" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="engineer_form.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/envision/engineer/templates/engineer/engineer_form.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.2356021">
+              <caret line="35" column="118" selection-start-line="35" selection-start-column="118" selection-end-line="35" selection-end-column="118" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/envision/engineer/templates/engineer/engineer_form.html" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+  </component>
+  <component name="NamedScopeManager">
+    <order />
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="y" value="23" />
+    <option name="width" value="1280" />
+    <option name="height" value="717" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="Scratches" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="envision-groups" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="envision-groups" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="envision-groups" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="envision-groups" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="envision-groups" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="envision" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="envision-groups" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="envision-groups" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="envision" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="envision" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="envision-groups" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="envision-groups" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="envision" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="engineer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="envision-groups" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="envision-groups" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="envision" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="engineer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="envision-groups" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="envision-groups" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="envision" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="engineer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="engineer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ad56cfe1-0916-4897-9f0a-978b80212670" name="Default" comment="" />
+      <created>1455291361205</created>
+      <option name="number" value="Default" />
+      <updated>1455291361205</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="23" width="1280" height="717" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24959612" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/envision/engineer/templates/engineer/engineer_form.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.2356021">
+          <caret line="35" column="118" selection-start-line="35" selection-start-column="118" selection-end-line="35" selection-end-column="118" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
